@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-a%+@mf&e#mh5r9pgl3(j0hr8=8cm+v+#=&xk4d@_1-)i=2$w*2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.onrender.com', 'vetrifiles.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -123,4 +123,5 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_URL = '/media/'
+
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
