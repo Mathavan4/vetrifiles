@@ -43,5 +43,6 @@ typing_extensions==4.15.0
 tzdata==2025.2
 wheel==0.45.1
 xlsxwriter==3.2.9
-
+whitenoise
 gunicorn
+
